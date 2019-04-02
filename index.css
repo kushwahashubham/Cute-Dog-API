@@ -1,0 +1,37 @@
+.page-container {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap:row nowrap;
+  -ms-flex-wrap:row nowrap;
+  flex-wrap:row nowrap;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.buttonDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button-row {
+  padding: 25px;
+}
+
+.card-row {
+ padding: 40px;
+}
+
+body{
+    background-color: lightsalmon;
+}
